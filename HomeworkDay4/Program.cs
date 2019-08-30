@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Script.Serialization;
 
 namespace HomeworkDay4
 {
@@ -17,9 +18,18 @@ namespace HomeworkDay4
             int value = casem.intgera(num1, num2, num3,  out int answer);
             Console.WriteLine($"Addition is {answer}");
             
-            Console.Read();
+            
 
-            //Cat cat1 = new Cat();
+            Cat cat1 = new Cat("SuperSaiyanSwagger",25);
+            
+            
+            Console.WriteLine(cat1.Name + " " + cat1.Age);
+            var json = new JavaScriptSerializer().Serialize(cat1);
+            Console.WriteLine(json);
+
+            
+                        Console.Read();
+
 
 
         }
@@ -41,20 +51,37 @@ namespace HomeworkDay4
 
         class Cat
         {
-            string name;
-            int age;
-            Cat(string name, int age)
+            private string name;
+            private int age;
+            public Cat(string name, int age)
             {
-                name = "Tibby";
-                age = 2;
+                this.name = name;
+                this.age = age;
 
             }
-           
-        }
-        class Method {
-            public static void age() {
+
+            public string Name
+            {
+                get => name;
+                set => name = value;
             }
 
+            public int Age
+            {
+                get => age;
+                set => age = value;
+            }
+            public static object AgeofCat(Cat cat)
+            {
+                cat.age = cat.age + 5;
+                return cat.age;
+            }
+
+
         }
+        
+         
+
+        
     }
 }
