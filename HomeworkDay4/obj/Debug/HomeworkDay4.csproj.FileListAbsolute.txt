@@ -1,0 +1,7 @@
+C:\Users\Adeboye Azeez\Desktop\C#Engineering40Week3\C#Engineering40Week3Day4\HomeworkDay4\bin\Debug\HomeworkDay4.exe.config
+C:\Users\Adeboye Azeez\Desktop\C#Engineering40Week3\C#Engineering40Week3Day4\HomeworkDay4\bin\Debug\HomeworkDay4.exe
+C:\Users\Adeboye Azeez\Desktop\C#Engineering40Week3\C#Engineering40Week3Day4\HomeworkDay4\bin\Debug\HomeworkDay4.pdb
+C:\Users\Adeboye Azeez\Desktop\C#Engineering40Week3\C#Engineering40Week3Day4\HomeworkDay4\obj\Debug\HomeworkDay4.csprojAssemblyReference.cache
+C:\Users\Adeboye Azeez\Desktop\C#Engineering40Week3\C#Engineering40Week3Day4\HomeworkDay4\obj\Debug\HomeworkDay4.csproj.CoreCompileInputs.cache
+C:\Users\Adeboye Azeez\Desktop\C#Engineering40Week3\C#Engineering40Week3Day4\HomeworkDay4\obj\Debug\HomeworkDay4.exe
+C:\Users\Adeboye Azeez\Desktop\C#Engineering40Week3\C#Engineering40Week3Day4\HomeworkDay4\obj\Debug\HomeworkDay4.pdb
